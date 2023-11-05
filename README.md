@@ -19,3 +19,4 @@ modprobe sprdwl_ng
 
 该镜像默认使用的root账户的密码为orangepi
 该镜像额外的管理员账户用户名为orangepi密码为orangepi
+目前镜像仅支持SD卡启动
