@@ -22,3 +22,10 @@ modprobe sprdwl_ng
 该镜像额外的管理员账户用户名为orangepi密码为orangepi
 
 目前镜像仅支持SD卡启动，推荐使用rufus作为写卡工具！
+
+进入系统后可以使用以下命令来扩容根目录：
+
+```shell
+dnf install cloud-utils-growpart.noarch
+growpart /dev/mmcblk1 3
+resize2fs /dev/mmcblk1p3
