@@ -18,5 +18,7 @@ modprobe sprdwl_ng
 3、防火墙服务，OOMD服务异常
 
 该镜像默认使用的root账户的密码为orangepi
+
 该镜像额外的管理员账户用户名为orangepi密码为orangepi
-目前镜像仅支持SD卡启动
+
+目前镜像仅支持SD卡启动，推荐使用rufus作为写卡工具！
