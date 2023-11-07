@@ -26,6 +26,6 @@ modprobe sprdwl_ng
 进入系统后可以使用以下命令来扩容根目录：
 
 ```shell
-dnf install cloud-utils-growpart.noarch
+dnf install cloud-utils-growpart
 growpart /dev/mmcblk1 3
 resize2fs /dev/mmcblk1p3
